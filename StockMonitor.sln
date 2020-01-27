@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMonitor", "StockMonitor\StockMonitor.csproj", "{AD046C64-0EA9-4268-8352-CE1F1B03E5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMonitorTest", "StockMonitorTest\StockMonitorTest.csproj", "{4D8459F4-227E-4663-B68F-C7647C456693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD046C64-0EA9-4268-8352-CE1F1B03E5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD046C64-0EA9-4268-8352-CE1F1B03E5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD046C64-0EA9-4268-8352-CE1F1B03E5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD046C64-0EA9-4268-8352-CE1F1B03E5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D8459F4-227E-4663-B68F-C7647C456693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D8459F4-227E-4663-B68F-C7647C456693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D8459F4-227E-4663-B68F-C7647C456693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D8459F4-227E-4663-B68F-C7647C456693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {532B6532-42C8-423E-B092-DADB271074ED}
+	EndGlobalSection
+EndGlobal
