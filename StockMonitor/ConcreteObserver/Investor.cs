@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace StockMonitor
 {
+    /// <summary>
+    /// The 'Observer' Class  (caller)
+    /// </summary>
+
     public class Investor : IInvestor
     {
         private string _name;
@@ -68,11 +72,12 @@ namespace StockMonitor
 
         private void printMessage(IStock stock, ITradeTrigger tradeTrigger)
         {
-            Console.WriteLine("Notified ({0}) {1} - {2} of {3}'s " +
-              "change to {4:C} ==>{5}", tradeTrigger.TradeTriggerType, _name, tradeTrigger.TriggerName, stock.Symbol, stock.Price, DateTime.Now.ToLocalTime());
+            Console.WriteLine("Notified ({0}) {1} - {2} of {3}'s change to {4:C} ==>{5}",
+                tradeTrigger.TradeTriggerType, _name, tradeTrigger.TriggerName, stock.Symbol, stock.Price, DateTime.Now.ToLocalTime());
             
         }
 
+        //
         public bool AddTrigger(ITradeTrigger tradeTrigger)
         {
             _tradTriggers.Add(tradeTrigger);
@@ -98,6 +103,7 @@ namespace StockMonitor
             set { _stock = value; }
         }
 
+        //List of the trigger which each investor expect to receive based on diffrent logic
         public List<ITradeTrigger> TradeTriggers
         {
             get { return _tradTriggers; }

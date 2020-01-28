@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 namespace StockMonitor
 {
     /// <summary>
-
     /// The 'Observer' interface
-
     /// </summary>
     public interface ITradeTrigger
     {
@@ -18,10 +16,8 @@ namespace StockMonitor
         double TargetPrice { get; set; }
         StockSensitivityType Sensitivity { get; set; }
         double FluctuationsRate { get; set; }
-        
         TradeTriggerType TradeTriggerType { get; set; }
         ReceiveNotificationType NotificationType { get; set; }
-
 
     }
 }

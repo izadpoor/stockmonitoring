@@ -8,7 +8,6 @@ namespace StockMonitor
 {
     public class TradeTrigger : ITradeTrigger
     {
-
         public string TriggerName { get; set; }
         public StockSensitivityType Sensitivity { get;set; }
         public double FluctuationsRate { get; set; }

@@ -5,11 +5,8 @@ using System.Linq;
 namespace StockMonitor
 {
     /// <summary>
-
-    /// The 'Subject' abstract class
-
+    /// The 'Subject' abstract class ( user)
     /// </summary>
-
     public abstract class Stock : IStock
 
     {

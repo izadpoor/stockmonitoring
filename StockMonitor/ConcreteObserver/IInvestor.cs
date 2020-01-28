@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 namespace StockMonitor
 {
     /// <summary>
-
     /// The 'Observer' interface
-
     /// </summary>
-
     public interface IInvestor
     {
         string InvestorName { get; set; }
@@ -20,9 +17,6 @@ namespace StockMonitor
         void Buy(IStock stock, ITradeTrigger tradeTrigger);
         List<ITradeTrigger> TradeTriggers { get; }
         bool AddTrigger(ITradeTrigger tradeTrigger);
-
         bool RemoveTrigger(ITradeTrigger tradeTrigger);
-        
-
     }
 }

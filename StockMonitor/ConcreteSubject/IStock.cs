@@ -8,19 +8,12 @@ namespace StockMonitor
 {
     public interface IStock
     {
-
         void Attach(IInvestor investor);
-
         void Detach(IInvestor investor);
-
         void Notify();
-
         double Price { get; set; }
         string Symbol { get;  }
         List<INotification> NotificationHistory { get; }
-
-
-
 
     }
 }

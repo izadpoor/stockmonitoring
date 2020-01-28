@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace StockMonitor
 {
-
     public class Notification : INotification
     {
         public string TriggerName { get; set; }
@@ -15,6 +14,5 @@ namespace StockMonitor
         public double StockPrice { get; set; }
         public int Counter { get; set; }
         
-
     }
 }
